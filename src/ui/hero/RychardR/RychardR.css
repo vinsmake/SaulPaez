@@ -1,0 +1,61 @@
+.RychardR {
+  font-family: var(--ff-2);
+  color: var(--c-text);
+}
+
+.RychardR-content {
+  display: block;
+  text-align: center;
+  
+}
+
+.RychardR-logo {
+  width: 15rem;
+}
+
+.RychardR-title {
+  font-weight: var(--fw-n);
+  font-size: var(--fs-lll);
+  margin: 0;
+
+}
+
+.RychardR-subheader {
+  font-size: var(--fs-ll);
+}
+
+.RychardR-text {
+  font-size: var(--fs-n);
+  letter-spacing: 5px;
+}
+
+.RychardR-contact {
+  font-size: var(--fs-n);
+}
+
+.RychardR-title, .RychardR-subheader, .RychardR-text {
+  filter: drop-shadow(0px 0px 2px #000000)
+  drop-shadow(0px 0px 2px #000000);
+}
+
+.RychardR-signature {
+  margin: 1rem 0 0 0;
+  width: clamp(15rem, 25rem, 80%);
+}
+
+@media (min-width: 1280px) {
+
+  .RychardR-content {
+    position: relative;
+    padding: 1rem 1rem;
+  }
+
+  .RychardR-logo {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-40%);
+    width: 30rem;
+    z-index: -1;
+  }
+}
