@@ -2,6 +2,7 @@ import { RychardRData } from './RychardRData'
 import './RychardR.css'
 import { TypeFlip } from '../../text/TypeFlip/TypeFlip'
 import { NightClubButton } from '../../buttons/NightClubButton'
+import { CamLent } from '../../specials/camLent/CamLent'
 
 
 export const RychardR = () => {
@@ -12,12 +13,12 @@ export const RychardR = () => {
         <>
             <section className="RychardR">
                 <div className="RychardR-content">
-                    <img src={logo} className="RychardR-logo" />
+                    <CamLent className="RychardR-logo" />
 
                     <h1 className="RychardR-title">{hero1}</h1>
 
                     <div className="RychardR-subheader">
-                        <p><TypeFlip propWords={['UX Designer', 'Full Stack Developer', 'React Native Developer',]} /></p>
+                        <p><TypeFlip propWords={['Eventos', 'Bodas', 'Videografía', "Comerciales", "Marketing" ]} /></p>
                     </div>
                     <p className="RychardR-text">{hero3}</p>
 
