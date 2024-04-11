@@ -25,7 +25,7 @@ export const RychardR = () => {
                     <img src={signature} className='RychardR-signature' />
                     <div className='RychardR-contact'>
                         
-                        <p>{/* <TypeFlip propWords={['Save Contact', 'Guardar Contacto']} /> */} <NightClubButton/></p>
+                        <a href='https://www.instagram.com/paezdrs/'>{/* <TypeFlip propWords={['Save Contact', 'Guardar Contacto']} /> */} <NightClubButton/></a>
 
                     </div>
                 </div>

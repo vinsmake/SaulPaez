@@ -16,7 +16,10 @@
     margin: auto;
 }
 
-
+.lent.photo {
+    border-radius: 100%;
+    width: 14rem;
+}
 
 .r {
     animation: spin 15s infinite linear;
@@ -51,4 +54,9 @@
         bottom: 0;
         width: 30rem;
     }
+
+    .lent.photo {
+    border-radius: 100%;
+    width: 25rem;
+}
 }
