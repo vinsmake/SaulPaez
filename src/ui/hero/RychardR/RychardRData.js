@@ -1,8 +1,8 @@
 export const RychardRData =
 {
-    'hero1': 'Enrique Plascencia',
+    'hero1': 'Saul Paez',
     'hero2': 'Full Stack Developer',
-    'hero3': 'SINCE 2020, GDL, MX',
+    'hero3': 'Guadalajara, Jalisco',
     'logo': './images/rychardr/logo.png',
     'signature': './images/rychardr/signature.png'
 }

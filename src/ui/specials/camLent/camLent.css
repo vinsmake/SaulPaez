@@ -1,0 +1,62 @@
+
+.cam {
+    position: relative;
+    height: 15rem;
+    width: 100%;
+    z-index: -2;
+}
+
+.lent {
+    position: absolute;
+    width: 15rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.lent.photo {
+    border-radius: 100%;
+    width: 14rem;
+}
+
+.r {
+    animation: spin 15s infinite linear;
+
+}
+
+.l {
+    animation: spin 15s infinite reverse;
+    
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .cam {
+        padding: 1rem;
+        height: 0;
+    }
+
+    .lent {
+        top: 15rem;
+        left: 45rem;
+        right: 0;
+        bottom: 0;
+        width: 30rem;
+    }
+
+    .lent.photo {
+    border-radius: 100%;
+    width: 25rem;
+}
+}
